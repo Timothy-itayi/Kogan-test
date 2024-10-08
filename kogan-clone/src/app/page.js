@@ -1,0 +1,33 @@
+'use client';
+
+import Image from 'next/image'; // Use lowercase 'i' in 'image'
+
+export default function Home() {
+  return (
+    <div className="flex items-center p-4">
+      <div className="flex items-center">
+        <Image
+          src="/assets/kogan-logo.png"
+          alt="kogan logo"
+          height={32} // Use a number for height (without 'px')
+          width={32}  // You should also provide the width for Image optimization
+        />
+      </div>
+      <div className="flex items-center ml-4 w-full max-w-2xl">
+        <input
+          type="text"
+          className="flex-grow p-2 border rounded-l-full focus:outline-none"
+          placeholder="running shoe mens"
+          defaultValue="running shoe mens"
+        />
+        <button className="p-2 bg-red-500 text-white rounded-r-full">
+          <i className="fas fa-search"></i>
+        </button>
+        <button className="p-2 text-gray-500">
+          <i className="fas fa-times"></i>
+        </button>
+      </div>
+ 
+    </div>
+  );
+}
