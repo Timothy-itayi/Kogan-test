@@ -1,19 +1,17 @@
-
+import NavBar from '../components/NavBar';
 import "./globals.css";
 
-
-
 export const metadata = {
-  title: "Kogan ",
+  title: "Kogan",
   description: "Clone of Kogan.com's nav and product details pages",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-      >
-        {children}
+      <body>
+        <NavBar /> 
+        <main >{children}</main> 
       </body>
     </html>
   );
