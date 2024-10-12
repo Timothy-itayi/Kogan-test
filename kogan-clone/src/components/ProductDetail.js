@@ -14,7 +14,7 @@ const ProductDetail = () => {
       <div className="flex">
         <div className="w-2/3">
           <Image
-            src="" // Add your image source here
+            src="/assets/productImages/photo00.jpeg" // Add your image source here
             alt="Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13"
             width={600}
             height={400}
@@ -22,32 +22,32 @@ const ProductDetail = () => {
           />
           <div className="flex mt-2 space-x-2">
             <Image
-              src="" // Thumbnail image source
+              src="/assets/productImages/photo01.jpeg" // Thumbnail image source
               alt="Thumbnail 1"
               width={50}
               height={50}
               className="border-2 border-blue-500"
             />
             <Image
-              src="" // Thumbnail image source
+              src="/assets/productImages/photo02.jpeg" // Thumbnail image source
               alt="Thumbnail 2"
               width={50}
               height={50}
             />
             <Image
-              src="" // Thumbnail image source
+              src="/assets/productImages/photo03.jpeg" // Thumbnail image source
               alt="Thumbnail 3"
               width={50}
               height={50}
             />
             <Image
-              src="" // Thumbnail image source
+              src="/assets/productImages/photo04.jpeg" // Thumbnail image source
               alt="Thumbnail 4"
               width={50}
               height={50}
             />
             <Image
-              src="" // Thumbnail image source
+              src="/assets/productImages/photo05.jpeg" // Thumbnail image source
               alt="Thumbnail 5"
               width={50}
               height={50}
