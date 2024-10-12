@@ -25,3 +25,41 @@ body {
     text-wrap: balance;
   }
 }
+/* styles.css or global css file */
+.wrapper {
+  margin-bottom: 1rem;
+}
+
+.title-container {
+  width: 100%;
+  text-align: left;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.title-content {
+  font-size: 2rem;
+  color:black
+}
+.body-content {
+color: black
+}
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.body-container {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
