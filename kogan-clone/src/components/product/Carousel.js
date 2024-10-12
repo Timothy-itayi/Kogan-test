@@ -26,10 +26,15 @@ const Carousel = ({ images }) => {
       />
       <div className="flex justify-center mt-2 space-x-2">
         <button
-          className="p-2 bg-blue-500 text-white rounded-full"
+          className="p-2 gray-400 bg-gray-400 text-white "
           onClick={handlePrevClick}
         >
-          &#9664; {/* Left Arrow */}
+            <Image
+         src='/assets/left-arrow-2.png'
+         width="15"
+         height="21"
+          className="filter invert"
+         /> {/* Left Arrow */}
         </button>
         {images.map((src, index) => (
           <Image
@@ -43,10 +48,16 @@ const Carousel = ({ images }) => {
           />
         ))}
         <button
-          className="p-2 bg-blue-500 text-white rounded-full"
+          className="p-2 gray-400 bg-gray-400 text-white "
           onClick={handleNextClick}
         >
-          &#9654; {/* Right Arrow */}
+         <Image
+         src='/assets/right-arrow.png'
+         width="15"
+         height="21"
+         className="filter invert"
+         />
+         {/* Right Arrow */}
         </button>
       </div>
     </div>
