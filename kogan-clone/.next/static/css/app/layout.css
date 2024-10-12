@@ -648,6 +648,15 @@ video {
 .pl-4 {
   padding-left: 1rem;
 }
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.pl-10 {
+  padding-left: 2.5rem;
+}
+.pl-20 {
+  padding-left: 5rem;
+}
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;

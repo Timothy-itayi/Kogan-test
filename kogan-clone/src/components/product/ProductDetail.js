@@ -30,7 +30,7 @@ const ProductDetail = () => {
               <i className="far fa-heart"></i> Add to wishlist
             </button>
           </div>
-          <h1 className="text-xl font-bold mb-2">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
+          <h1 className="text-xl text-black font-bold mb-2">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
           <a href="#" className="text-blue-500 hover:underline mb-4 block">Adidas</a>
           <div className="flex items-center mb-4">
             <span className="text-red-600 text-3xl font-bold">$208.55</span>

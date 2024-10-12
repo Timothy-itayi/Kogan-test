@@ -4,13 +4,13 @@ import SearchBar from './SearchBar';
 import Link from 'next/link';
 const NavBar = () => {
   return (
-    <div className="flex  p-4 bg-white shadow-md fixed  w-full z-10">
+    <div className="flex   p-4 bg-white shadow-md fixed  w-full z-10">
       <div className="flex items-center">
         <Image
           src="/assets/kogan-logo.png"
           alt="kogan logo"
-          height={100}
-          width={100}
+          height={150}
+          width={150}
         />
       </div>
       <SearchBar/>
