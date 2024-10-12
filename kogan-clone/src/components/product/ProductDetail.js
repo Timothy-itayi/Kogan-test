@@ -12,26 +12,19 @@ const ProductDetail = () => {
   ];
 
   return (
-    <div className="p-4">
-      <div className="text-sm text-gray-500 mb-2">
-        <a href="#" className="hover:underline">CLOTHING, SHOES & ACCESSORIES</a>
-        <a href="#" className="hover:underline"> MEN'S SHOES & FASHION</a>
-        <a href="#" className="hover:underline"> MEN'S SHOES</a>
-        <a href="#" className="hover:underline"> MEN'S RUNNING SHOES</a>
-      </div>
-      <div className="flex">
-        <div className="w-2/3">
+    <div className="py-20">
+
+      <div className="flex flex-col md:flex-row">
+        <div className="md:w-2/3">
           <Carousel images={images} />
         </div>
-        <div className="w-1/3 pl-4">
+        <div className="md:w-1/3 md:pl-4 mt-4 md:mt-0">
           <div className="flex items-center mb-2">
-            <span className="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Low Stock</span>
-            <button className="ml-auto text-gray-500 hover:text-gray-700">
-              <i className="far fa-heart"></i> Add to wishlist
-            </button>
+    
           </div>
-          <h1 className="text-xl text-black font-bold mb-2">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
-          <a href="#" className="text-blue-500 hover:underline mb-4 block">Adidas</a>
+ 
+          <h1 className=" pt-10  text-black font-bold mb-2">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
+          <a href="#" className="text-black underline mb-4 block">Adidas</a>
           <div className="flex items-center mb-4">
             <span className="text-red-600 text-3xl font-bold">$208.55</span>
             <span className="text-gray-500 text-sm ml-2 line-through">Non-member $215</span>
