@@ -1,6 +1,7 @@
 // src/components/product/ProductDetail.js
 import Image from 'next/image';
 import Carousel from './Carousel';
+import Accordion from './product-components/accordion';
 
 const ProductDetail = () => {
   const images = [
@@ -17,11 +18,10 @@ const ProductDetail = () => {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-2/3">
           <Carousel images={images} />
+        <Accordion/> 
         </div>
         <div className="md:w-1/3 md:pl-4 mt-4 md:mt-0">
-          <div className="flex items-center mb-2">
-    
-          </div>
+  
  
           <h1 className=" pt-10  text-black font-bold mb-2">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
           <a href="#" className="text-black underline mb-4 block">Adidas</a>
