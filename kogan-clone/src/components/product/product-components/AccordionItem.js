@@ -5,7 +5,7 @@ const AccordionItem = ({ title, body, isOpen, onClick }) => {
   const contentHeight = useRef(null);
 
   return (
-    <div className="wrapper">
+    <div className="wrapper pl-4">
       <button
         className={`title-container ${isOpen ? 'active' : ''}`}
         onClick={onClick}
@@ -21,7 +21,7 @@ const AccordionItem = ({ title, body, isOpen, onClick }) => {
       </button>
       <div
         ref={contentHeight}
-        className={`body-container ${isOpen ? 'open' : ''}`}
+        className={`body-container pl-3 ${isOpen ? 'open' : ''}`}
         style={isOpen ? { height: contentHeight.current.scrollHeight } : { height: '0px' }}
       >
         <p className="body-content">{body}</p>

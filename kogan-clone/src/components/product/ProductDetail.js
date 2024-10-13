@@ -23,7 +23,7 @@ const ProductDetail = () => {
         <div className="md:w-1/3 md:pl-4 mt-4 md:mt-0">
   
  
-          <h1 className=" pt-10  text-black font-bold ">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
+          <h1 className=" pt-10  text-lg  text-black p-font ">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
           <a href="#" className="text-black text-sm underline  ">Adidas</a>
           <div className="flex flex-row items-center pt-10">
   <p className='align-bottom'> 
@@ -36,7 +36,7 @@ const ProductDetail = () => {
     />
   </p>
   <h2 className="   align-top inline-flex items-center">
-  <p className="text-black  align-text-top font-bold ">
+  <p className="text-black  align-text-top p-font">
     Member
   </p>
   </h2>
@@ -45,7 +45,7 @@ const ProductDetail = () => {
        
           <div className="flex items-center ">
   <div className="flex flex-col">
-  <span className="bg-red-500 text-white rounded-l-full  px-2 py-1 mr-2 text-3xl " style={{ fontFamily: 'Figtree-SemiBold' }}>
+  <span className="bg-red-500 text-white rounded-l-full  px-2 py-1 mr-2 text-3xl price-font">
   $208<span className="text-xl align-top-adjusted ">.55</span>
 </span>
 
@@ -53,8 +53,8 @@ const ProductDetail = () => {
     </div>
     <div className='pl-5 '> 
     <div className="ml-auto text-black   mb-5 ">
-    <span className="bg-red-500  text-[10px] text-white p-1  rounded px-2  mr-1 ">FREE</span> 
-    <span className="font-bold text-xs">Shipping</span>
+    <span className="bg-red-500  p-0.5  text-xs text-white rounded px-2  mr-1 p-font " >FREE</span> 
+    <span className="text-xs p-font" >Shipping</span>
   </div>
     </div>
  

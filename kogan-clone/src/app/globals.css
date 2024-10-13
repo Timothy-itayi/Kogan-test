@@ -48,10 +48,11 @@ body {
   font-size: h3;
   color:black;
   font-weight: 200;
- 
+  font-family: 'Figtree-SemiBold';
 }
 .body-content {
-color: black
+color: black;
+font-family: 'Figtree-Light';
 }
 .arrow {
   transition: transform 0.3s ease;
@@ -67,14 +68,36 @@ color: black
 }
 
 @font-face {
-  font-family: 'Figtree-Bold';
-  src: url(/src/app/fonts/Figtree/static/Figtree-Bold.ttf) format('truetype');
+  font-family: 'Figtree-SemiBold';
+  src: url(../app/fonts/Figtree/static/Figtree-SemiBold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Figtree-ExtraBold';
-  src: url(/src/app/fonts/Figtree/static/Figtree-ExtraBold.ttf) format('truetype');
+  src: url(../app/fonts/Figtree/static/Figtree-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Figtree-Light';
+  src: url(../app/fonts/Figtree/static/Figtree-Light.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Figtree-Regular';
+  src: url(../app/fonts/Figtree/static/Figtree-Regular.ttf) format('truetype');
+}
+
+.title-font{
+  font-family: 'Figtree-Regular';
+}
+.p-font{
+  font-family: 'Figtree-SemiBold';
+}
+.price-font{
+ font-family: 'Figtree-ExtraBold'
 }
 .align-top-adjusted {
   position: relative;
   top: -0.55em; /* Adjust this value as needed */
 }
+

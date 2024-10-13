@@ -10,7 +10,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container border">
       {data.map((item, index) => (
         <AccordionItem
           key={index}
