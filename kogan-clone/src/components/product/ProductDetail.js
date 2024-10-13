@@ -84,7 +84,7 @@ const ProductDetail = () => {
 
             <ul className="text-sm text-black mb-2">
               <li className="flex items-center mb-1"><Image
-              src="/assets/untitled.svg"
+              src="/assets/Untitled.svg"
               width="24"
               height="24"
               alt='untitled'
