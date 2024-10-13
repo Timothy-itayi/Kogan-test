@@ -45,7 +45,7 @@ const ProductDetail = () => {
        
           <div className="flex items-center ">
   <div className="flex flex-col">
-  <span className="bg-red-500 text-white rounded-l-full  px-2 py-1 mr-2 text-3xl price-font">
+  <span className="bg-[#e71333] text-white rounded-l-full  px-2 py-1 mr-2 text-3xl price-font">
   $208<span className="text-xl align-top-adjusted ">.55</span>
 </span>
 
@@ -53,7 +53,7 @@ const ProductDetail = () => {
     </div>
     <div className='pl-5 '> 
     <div className="ml-auto text-black   mb-5 ">
-    <span className="bg-red-500  p-0.5  text-xs text-white rounded px-2  mr-1 p-font " >FREE</span> 
+    <span className="bg-[#e71333] p-0.5  text-xs text-white rounded px-2  mr-1 p-font " >FREE</span> 
     <span className="text-xs p-font" >Shipping</span>
   </div>
     </div>
@@ -67,7 +67,7 @@ const ProductDetail = () => {
           <div className="mb-4">
 
           </div>
-          <button className="w-full bg-red-600 text-white font-bold py-2 rounded mb-4 hover:bg-red-700">Add to cart</button>
+          <button className="w-full bg-[#e71333] text-white font-bold py-2 rounded mb-4 hover:bg-red-700">Add to cart</button>
           <div className=" bg-[#f6ede6] p-4 rounded-t-lg">
           <div className="flex flex-row">
   <h2 className="text-sm text-black font-bold mb-2 inline-flex items-center">

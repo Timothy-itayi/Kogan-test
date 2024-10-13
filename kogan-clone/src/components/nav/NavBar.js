@@ -15,9 +15,9 @@ const NavBar = () => {
       </div>
       <SearchBar/>
  <div className="ml-auto">
- <button className="p-2  text-black">
+ <button className="p-2   ">
           <Link href="https://timothyitayi.com">
-            <i>Made by Tim</i>
+            <i className=' hover:text-[#e71333] underline text-black'>Made by Tim</i>
           </Link>
         </button>
  </div>
