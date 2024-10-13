@@ -1,3 +1,4 @@
+// Accordion Data
 const data = [
     {
       title: "Description",
@@ -9,4 +10,3 @@ const data = [
   ];
   
   export default data;
-  
