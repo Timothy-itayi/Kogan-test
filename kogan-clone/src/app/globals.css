@@ -45,8 +45,10 @@ body {
 }
 
 .title-content {
-  font-size: 2rem;
-  color:black
+  font-size: h3;
+  color:black;
+  font-weight: 200;
+ 
 }
 .body-content {
 color: black
@@ -62,4 +64,17 @@ color: black
 .body-container {
   overflow: hidden;
   transition: height 0.3s ease;
+}
+
+@font-face {
+  font-family: 'Figtree-Bold';
+  src: url(/src/app/fonts/Figtree/static/Figtree-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Figtree-ExtraBold';
+  src: url(/src/app/fonts/Figtree/static/Figtree-ExtraBold.ttf) format('truetype');
+}
+.align-top-adjusted {
+  position: relative;
+  top: -0.55em; /* Adjust this value as needed */
 }

@@ -1,7 +1,7 @@
 // src/components/product/ProductDetail.js
 import Image from 'next/image';
 import Carousel from './Carousel';
-import Accordion from './product-components/accordion';
+import Accordion from './product-components/Accordion';
 
 const ProductDetail = () => {
   const images = [
@@ -23,30 +23,96 @@ const ProductDetail = () => {
         <div className="md:w-1/3 md:pl-4 mt-4 md:mt-0">
   
  
-          <h1 className=" pt-10  text-black font-bold mb-2">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
-          <a href="#" className="text-black underline mb-4 block">Adidas</a>
-          <div className="flex items-center mb-4">
-            <span className="text-red-600 text-3xl font-bold">$208.55</span>
-            <span className="text-gray-500 text-sm ml-2 line-through">Non-member $215</span>
-            <span className="ml-auto text-green-600 font-semibold">FREE Shipping</span>
-          </div>
+          <h1 className=" pt-10  text-black font-bold ">Adidas Mens adizero Takumi Sen 8 Running Shoes Runners Sneakers - White/Teal/Orange - US 13</h1>
+          <a href="#" className="text-black text-sm underline  ">Adidas</a>
+          <div className="flex flex-row items-center pt-10">
+  <p className='align-bottom'> 
+    <Image 
+      src='/assets/tick.svg'
+      width='60'
+      height='24'
+      alt='tick'
+      className='mr-2'
+    />
+  </p>
+  <h2 className="   align-top inline-flex items-center">
+  <p className="text-black  align-text-top font-bold ">
+    Member
+  </p>
+  </h2>
+</div>
+
+       
+          <div className="flex items-center ">
+  <div className="flex flex-col">
+  <span className="bg-red-500 text-white rounded-l-full  px-2 py-1 mr-2 text-3xl " style={{ fontFamily: 'Figtree-SemiBold' }}>
+  $208<span className="text-xl align-top-adjusted ">.55</span>
+</span>
+
+    <span className="text-black text-sm pt-2">Non-member <span className="font-bold">$215</span></span>
+    </div>
+    <div className='pl-5 '> 
+    <div className="ml-auto text-black   mb-5 ">
+    <span className="bg-red-500  text-[10px] text-white p-1  rounded px-2  mr-1 ">FREE</span> 
+    <span className="font-bold text-xs">Shipping</span>
+  </div>
+    </div>
+ 
+  
+</div>
+
+
+
+        
           <div className="mb-4">
-            <label htmlFor="size" className="block text-gray-700 mb-1">Size</label>
-            <select id="size" className="w-full border border-gray-300 rounded px-3 py-2">
-              <option>US 13</option>
-            </select>
+
           </div>
           <button className="w-full bg-red-600 text-white font-bold py-2 rounded mb-4 hover:bg-red-700">Add to cart</button>
-          <div className="bg-gray-100 p-4 rounded">
-            <h2 className="text-lg font-bold mb-2">Join FIRST</h2>
-            <ul className="text-sm text-gray-700 mb-2">
-              <li className="flex items-center mb-1"><i className="fas fa-check text-green-500 mr-2"></i> Save $6.45 on Non-Member Price</li>
-              <li className="flex items-center mb-1"><i className="fas fa-check text-green-500 mr-2"></i> Earn $2.09 Rewards Credit</li>
-              <li className="flex items-center"><i className="fas fa-check text-green-500 mr-2"></i> Bonus $10 Kogan.com Credit*</li>
+          <div className=" bg-[#f6ede6] p-4 rounded-t-lg">
+          <div className="flex flex-row">
+  <h2 className="text-sm text-black font-bold mb-2 inline-flex items-center">
+    <p className=" align-text-bottom">Join</p>
+    <Image 
+      src='/assets/tick.svg'
+      width='80'
+      height='24'
+      alt='tick'
+      className='ml-1 align-bottom' 
+    />
+  </h2>
+</div>
+
+            <ul className="text-sm text-black mb-2">
+              <li className="flex items-center mb-1"><Image
+              src="/assets/untitled.svg"
+              width="24"
+              height="24"
+              alt='untitled'
+              className="font-size: 12px"
+              />             
+              <i className="fas fa-check text-green-500 mr-2">
+              </i> Save <span className="font-bold ml-1 mr-1">$6.45</span> on Non-Member Price</li>
+              <li className="flex items-center mb-1">
+                
+                <i className="fas fa-check text-green-500 mr-2">
+                  <Image
+                  src="/assets/earn.svg"
+                  width="24"
+                  height="24"
+                  alt="earn"
+                  className='font-size: 12px'
+
+                  />
+                  </i> Earn <span className="font-bold ml-1 mr-1">$2.09</span> Rewards Credit</li>
+           
             </ul>
-            <p className="text-xs text-gray-500">Try 14 days of Kogan FIRST for free. Cancel anytime.</p>
-            <a href="#" className="text-blue-500 hover:underline text-sm font-semibold mt-2 block">Learn More</a>
+           
+           
+  
           </div>
+          <div className='bg-[#e71333] pt-3  pb-2 rounded-b-lg'>
+            <p className="text-xs  text-center text-white">Try 14 days of Kogan FIRST for free. Cancel anytime.</p>
+            </div>
         </div>
       </div>
     </div>

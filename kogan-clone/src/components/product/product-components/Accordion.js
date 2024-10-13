@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import data from './accordionData';
+import data from './AccordionData';
 import AccordionItem from './AccordionItem'; // Make sure you're correctly importing this component
 
 const Accordion = () => {
