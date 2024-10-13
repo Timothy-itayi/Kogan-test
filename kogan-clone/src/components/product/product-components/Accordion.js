@@ -3,8 +3,9 @@ import data from './AccordionData';
 import AccordionItem from './AccordionItem'; // Make sure you're correctly importing this component
 
 const Accordion = () => {
+  
   const [activeIndex, setActiveIndex] = useState(null);
-
+ 
   const handleItemClick = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };

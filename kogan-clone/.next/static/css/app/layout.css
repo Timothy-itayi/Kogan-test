@@ -718,6 +718,9 @@ video {
 .pb-2 {
   padding-bottom: 0.5rem;
 }
+.pl-3 {
+  padding-left: 0.75rem;
+}
 .pl-4 {
   padding-left: 1rem;
 }
@@ -732,12 +735,6 @@ video {
 }
 .pt-3 {
   padding-top: 0.75rem;
-}
-.pl-2 {
-  padding-left: 0.5rem;
-}
-.pl-3 {
-  padding-left: 0.75rem;
 }
 .text-center {
   text-align: center;
@@ -808,6 +805,11 @@ video {
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .transition-transform {
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -837,7 +839,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-/* styles.css or global css file */
+/* Accordion styles */
 .wrapper {
   margin-bottom: 1rem;
 }
@@ -898,7 +900,7 @@ font-family: 'Figtree-Light';
   font-family: 'Figtree-Regular';
   src: url(/_next/static/media/Figtree-Regular.0e2890db.ttf) format('truetype');
 }
-
+/* ProductDetails.js  */
 .title-font{
   font-family: 'Figtree-Regular';
 }
@@ -912,14 +914,23 @@ font-family: 'Figtree-Light';
   position: relative;
   top: -0.55em; /* Adjust this value as needed */
 }
+
+/* Carousel styles*/
+
+.transition-border {
+  transition: border-color 0.05ms ease-in-out;
+}
+
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
 @media (min-width: 768px) {
 
   .md\:mt-0 {
@@ -942,5 +953,4 @@ font-family: 'Figtree-Light';
     padding-left: 1rem;
   }
 }
-
 

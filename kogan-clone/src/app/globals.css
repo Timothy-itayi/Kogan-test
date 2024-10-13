@@ -25,7 +25,7 @@ body {
     text-wrap: balance;
   }
 }
-/* styles.css or global css file */
+/* Accordion styles */
 .wrapper {
   margin-bottom: 1rem;
 }
@@ -86,7 +86,7 @@ font-family: 'Figtree-Light';
   font-family: 'Figtree-Regular';
   src: url(../app/fonts/Figtree/static/Figtree-Regular.ttf) format('truetype');
 }
-
+/* ProductDetails.js  */
 .title-font{
   font-family: 'Figtree-Regular';
 }
@@ -101,3 +101,8 @@ font-family: 'Figtree-Light';
   top: -0.55em; /* Adjust this value as needed */
 }
 
+/* Carousel styles*/
+
+.transition-border {
+  transition: border-color 0.05ms ease-in-out;
+}
