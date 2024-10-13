@@ -926,6 +926,16 @@ font-family: 'Figtree-Light';
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.hover\:text-red-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#e71333\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(231 19 51 / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
